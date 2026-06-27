@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:mithril"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:mithril_block"
+  }
+}
