@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "ruby",
   "ingredient": {
-    "item": "minecraft:ruby_ore"
+    "item": "tutorialmod:ruby_ore"
   },
-  "result": "minecraft:ruby"
+  "result": "tutorialmod:ruby"
 }

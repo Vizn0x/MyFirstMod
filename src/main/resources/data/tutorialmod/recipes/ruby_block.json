@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "tutorialmod:ruby"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "tutorialmod:ruby_block"
-  }
+  },
+  "show_notification": true
 }

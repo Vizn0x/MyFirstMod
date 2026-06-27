@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "tutorialmod:ruby_block"
+      "item": "tutorialmod:mithril_block"
     }
   ],
-  "result:": {
-    "item": "tutorialmod:ruby",
-    "count": 9
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:mithril"
   }
 }
