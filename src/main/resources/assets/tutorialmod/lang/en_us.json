@@ -2,5 +2,10 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.mithril": "Mithril",
 
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.mithril_block": "Block of Mithril",
+  "block.tutorialmod.mithril_ore": "Mithril Ore",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

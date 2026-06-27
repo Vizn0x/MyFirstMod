@@ -8,14 +8,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.vizn0x.tutorialmod.TutorialMod;
+import net.vizn0x.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup Ruby_Group = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TutorialMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.MITHRIL);
                         entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+
+                        entries.add(ModItems.MITHRIL);
+                        entries.add(ModBlocks.MITHRIL_BLOCK);
+                        entries.add(ModBlocks.MITHRIL_ORE);
                     }).build());
 
     public static void registerItemGroups() {
