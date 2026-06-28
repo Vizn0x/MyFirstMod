@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:mithril_ore",
+    "tutorialmod:deepslate_mithril_ore",
+    "tutorialmod:ruby_ore",
+    "tutorialmod:mithril_block",
+    "tutorialmod:ruby_block",
+    "tutorialmod:deepslate_ruby_ore"
+  ]
+}

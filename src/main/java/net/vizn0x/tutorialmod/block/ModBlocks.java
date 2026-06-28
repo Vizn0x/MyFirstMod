@@ -4,22 +4,28 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.vizn0x.tutorialmod.TutorialMod;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2.0F), UniformIntProvider.create(4, 7)));
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.0F), UniformIntProvider.create(4, 7)));
     public static final Block MITHRIL_BLOCK = registerBlock("mithril_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block MITHRIL_ORE = registerBlock("mithril_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2.8f), UniformIntProvider.create(3, 5)));
+    public static final Block DEEPSLATE_MITHRIL_ORE = registerBlock("deepslate_mithril_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.8f), UniformIntProvider.create(3, 5)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

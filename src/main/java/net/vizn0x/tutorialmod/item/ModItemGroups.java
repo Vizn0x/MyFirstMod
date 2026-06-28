@@ -18,10 +18,12 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
                         entries.add(ModItems.MITHRIL);
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_MITHRIL_ORE);
                     }).build());
 
     public static void registerItemGroups() {

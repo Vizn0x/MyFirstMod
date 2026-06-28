@@ -4,8 +4,10 @@
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.tutorialmod.mithril_block": "Block of Mithril",
   "block.tutorialmod.mithril_ore": "Mithril Ore",
+  "block.tutorialmod.deepslate_mithril_ore": "Deepslate Mithril Ore",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
