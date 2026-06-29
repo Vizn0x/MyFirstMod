@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_MITHRIL_ORE);
+
                     }).build());
 
     public static void registerItemGroups() {

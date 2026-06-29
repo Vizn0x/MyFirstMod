@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.mithril": "Mithril",
+  "item.tutorialmod.mithril_sword": "Mithril Sword",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
